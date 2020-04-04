@@ -7,6 +7,7 @@ import { useLocation, Link, useParams } from "react-router-dom";
 import { useTopics } from "../../store/action/index";
 import TopicTag from "../index/topicTag";
 import FromNow from "./fromNow";
+import { Typography } from "antd";
 
 function IndexList(props) {
   // let momoent = Moment;
@@ -52,7 +53,7 @@ function IndexList(props) {
             </Col>
             <Col xs={20} md={18}>
               <Link to={`/topic/${id}`} className="list_item">
-                {title}
+                  {title}
               </Link>
             </Col>
             <Col xs={0} md={4}>

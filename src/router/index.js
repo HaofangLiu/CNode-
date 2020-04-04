@@ -27,6 +27,13 @@ const route = [
         return <Page404 {...props} />; 
       }
     }
+  },//CNode-
+  {
+    path: "/CNode-",
+    exact: true,
+    render(props) {
+      return <Redirect to="/"></Redirect>;
+    }
   },
   {
     path: "/index",
