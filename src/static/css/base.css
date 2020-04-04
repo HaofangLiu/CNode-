@@ -1,0 +1,143 @@
+#root .page {
+  min-height: 100vh;
+}
+.wrap {
+  margin: 0 5px;
+}
+.topic_list {
+  background: white;
+  padding: 0 10px;
+}
+
+.user-detail{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.userTopic_List {
+  padding: 0 10px;
+}
+
+.ant-card-body {
+  padding: 0 10px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+#header {
+  padding: 0;
+  height: auto;
+}
+#header .ant-menu-item {
+  line-height: 64px;
+}
+#footer {
+  padding: 10px 0;
+}
+
+.list_item {
+  margin: 0 10px;
+}
+
+.userListTopic_body {
+  padding: 0;
+}
+
+#logo {
+  margin: 0;
+  text-align: center;
+}
+
+.tag {
+  margin: 0 5px;
+}
+
+.wrap .index_nav {
+  margin-top: 10px;
+}
+.topic-tag {
+  margin: 0 5px;
+}
+.from_now {
+  text-align: right;
+}
+.index-pagination {
+  border-top: 1px solid #f0f0f0;
+  padding: 10px 5px;
+  background: #fff;
+  display: flex;
+}
+.index-pagination > ul {
+  margin: auto;
+}
+
+.index_page {
+  margin-top: 10px;
+}
+
+.userPage .ant-card {
+  margin-top: 15px;
+}
+
+.index_pagination {
+  border-top: 1px solid #f1f1f1;
+  padding: 10px 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.getstart {
+  margin-top: 10px;
+}
+
+.topic .ant-card {
+  margin-top: 15px;
+}
+
+/* >=576px */
+@media all and (min-width: 576px) {
+  .wrap {
+    margin: 0 10px;
+  }
+  .wrap .topics_list {
+    background: #fff;
+    padding: 0 10px;
+  }
+}
+/* >=768px */
+@media all and (min-width: 768px) {
+  .wrap {
+    margin: 0 15px;
+  }
+  .wrap .topics_list {
+    background: #fff;
+    padding: 0 20px;
+  }
+}
+/* >=992px */
+@media all and (min-width: 992px) {
+  .wrap {
+    margin: 0 20px;
+  }
+}
+/* >=1200px */
+@media all and (min-width: 1200px) {
+  .wrap {
+    margin: 0 auto;
+    width: 980px;
+  }
+  .wrap .topics_list {
+    background: #fff;
+    padding: 0 30px;
+  }
+}
+/* >=1600px */
+@media all and (min-width: 1600px) {
+  .wrap {
+    width: 1200px;
+  }
+}
